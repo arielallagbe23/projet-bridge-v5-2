@@ -35,7 +35,9 @@ Deux contrats `TokenBridge` ont été déployés avec succès :
 
 La commande suivante fonctionne pour ajouter un token :
 
+```
 cast send $BRIDGE_CONTRACT_ADDRESS "addSupportedToken(address)" 0xTokenAddress --rpc-url $TARGET_CHAIN_RPC_URL --private-key $PRIVATE_KEY
+```
 
 ### ✅ 4. Dépôt de tokens
 
